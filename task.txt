@@ -1,0 +1,22 @@
+Designing a RESTFUL API - JSON
+
+GET /user - HTML Documnet Render
+GET /api/users - List all the users in JSON
+
+GET /api/users/1 - Get user with ID 1
+GET /api/users/2 - Get user with ID 2
+//dynamic path parameters- :id
+GET /api/users/:id
+
+POST /api/users - create new users
+
+PATCH /api/users/id - Edit the user with ID 1
+
+DELETE /api/users/1 - Delete the user with ID 1
+
+//we care hard coding the data for now 
+
+
+//Mongoose
+SCHEMA - Strucute of your database and create a MODEL
+using this model we do CRUD operations
